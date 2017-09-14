@@ -1,0 +1,28 @@
+{
+  "name": "pyroclast-sample-js",
+  "version": "0.1.5",
+  "description": "",
+  "main": "lib/pyroclast.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-register",
+    "build": "babel src/pyroclast.js -o lib/pyroclast.js"
+  },
+  "author": "Distributed Masonry",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onyx-platform/pyroclast-sample-js.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-preset-env": "^1.5.0",
+    "babel-register": "^6.24.1",
+    "expect.js": "^0.3.1",
+    "mocha": "^3.4.1"
+  },
+  "dependencies": {
+    "babel": "^6.23.0",
+    "pyroclast": "^0.1.5"
+  }
+}
