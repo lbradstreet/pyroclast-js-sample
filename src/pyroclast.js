@@ -15,7 +15,7 @@ var cb = function(result) {
 topicClient
     .sendEvent({type: "page-visit", page: "/home", timestamp: 1495072835000})
     .then((result) => {
-	    println(result);
+	    console.log(result);
         // ...
     });
 
@@ -27,7 +27,7 @@ topicClient
         {type: "page-visit", page: "/home", timestamp: 1495072837000}
     ])
     .then((results) => {
-	    println(results);
+	    console.log(results);
         // ...
     });
 
